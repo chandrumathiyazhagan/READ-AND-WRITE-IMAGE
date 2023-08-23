@@ -22,39 +22,64 @@ End the program and close the output image windows.
 ### Developed By:
 ### Register Number: 
 i) #To Read,display the image
-```
-  
+```python
+import cv2
+image=cv2.imread("mk.jpeg",1)
+cv2.imshow("212222230026_M.Chandru",image)
+cv2.waitKey(0)
+cv2.destroyAllwindows()  
 
 ```
 ii) #To write the image
-```
+```python
 
-
+import cv2
+image=cv2.imread("mk.jpeg",1)
+cv2.imwrite("mk.jpeg",image)
+cv2.imshow("212222230026_M.Chandru",image)
+cv2.waitKey(0)
+cv2.destroyAllwindows()
 
 ```
 iii) #Find the shape of the Image
 ```python3
 
-
+import cv2
+picture=cv2.imread("mk.jpeg",1)
+print(picture.shape)
 
 ```
 iv) #To access rows and columns
 
 ```python3
 
-
+import random
+import cv2
+image=cv2.imread("mk.jpeg",1)
+for i in range(100):
+    for j in range(image.shape[1]):
+        image[i][j]=[random.randint(0,255),random.randint(0,255),random.randint(0,255)]
+cv2.imshow("212222230026_M.Chandru",image)
+cv2.waitKey(0)
+cv2.destroyAllwindows()
 
 ```
 v) #To cut and paste portion of image
 ```python3
 
-
+import cv2
+img = cv2.imread('mk1.jpeg', 1)
+tag = img[20:80:, 20:80]
+img[90:150, 90:150] = tag
+cv2.imshow('212222230026_M.Chandru', img)
+cv2.waitKey(0)
 
 ```
 
 ## Output:
 
 ### i) Read and display the image
+![Screenshot from 2023-08-23 13-34-24](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/84ec4ed1-abd0-4d06-8f6b-8f3978703d20)
 
 <br>
 <br>
@@ -68,14 +93,17 @@ v) #To cut and paste portion of image
 
 <br>
 <br>
+![Screenshot from 2023-08-23 13-36-02](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/127b437a-4cb9-45f9-8696-ba2f4b36df60)
 
 ### iv)Access rows and columns
 <br>
 <br>
+![Screenshot from 2023-08-23 13-38-38](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/754decfe-d317-44ca-9357-c7de3a0a4c43)
 
 ### v)Cut and paste portion of image
 <br>
 <br>
+![212222230026_M Chandru_screenshot](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/e895e8a3-a1e6-4461-bb8f-f924ec19a759)
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
