@@ -93,17 +93,16 @@ cv2.waitKey(0)
 
 <br>
 <br>
-![Screenshot from 2023-08-23 13-36-02](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/127b437a-4cb9-45f9-8696-ba2f4b36df60)
 
 ### iv)Access rows and columns
 <br>
 <br>
-![Screenshot from 2023-08-23 13-38-38](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/754decfe-d317-44ca-9357-c7de3a0a4c43)
+
 
 ### v)Cut and paste portion of image
-<br>
-<br>
 ![212222230026_M Chandru_screenshot](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/e895e8a3-a1e6-4461-bb8f-f924ec19a759)
+<br>
+<br>
 
 ## Result:
 Thus the images are read, displayed, and written successfully using the python program.
