@@ -85,16 +85,20 @@ cv2.waitKey(0)
 <br>
 
 ### ii)Write the image
+![Screenshot from 2023-08-23 14-28-40](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/ba8fb996-7ca3-4150-a55a-79b7ae6c28e5)
 
 <br>
 <br>
 
 ### iii)Shape of the Image
+![Screenshot from 2023-08-23 13-36-02](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/b49e4408-2e7b-4ae6-9a8d-bb220d6891c9)
 
 <br>
 <br>
 
 ### iv)Access rows and columns
+![Screenshot from 2023-08-23 14-30-05](https://github.com/chandrumathiyazhagan/READ-AND-WRITE-IMAGE/assets/119393023/82041321-1712-40fe-a6e4-be04a0b5ea43)
+
 <br>
 <br>
 
